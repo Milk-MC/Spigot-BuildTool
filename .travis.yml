@@ -1,5 +1,5 @@
 deploy:
   provider: script
-  script: bash build.sh
+  script: bash ./build.sh
   on:
-    branch: spigot-buildtool
+    branch: master
